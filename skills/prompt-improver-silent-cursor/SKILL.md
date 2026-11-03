@@ -20,7 +20,7 @@ Do the rewrite, the slicing and the model picks in your head. Do not print them 
 Before the first tool call that changes anything, read this file to the end, then:
 
 1. `references/models/cursor-roster.md` (always; it picks the models).
-2. The card for each model you will brief: `grok.md`, `claude.md`, `gemini.md`, `openai.md`, `composer.md`.
+2. The card for each model you will brief: `grok.md`, `claude.md`, `gemini.md`, `composer.md`.
 3. `references/team-playbook.md` (always; it says how to run the team in Cursor).
 4. `references/project-map.md` (always; you write or update the map every job).
 5. `references/setup.md` only on first run or when a link is broken.
@@ -89,7 +89,7 @@ Use `references/models/cursor-roster.md`. Short version as of 2026-11-03:
 | Writing people will read | Claude Opus 5.5 | Cleanest prose |
 | Bulk classify or extract | Claude Haiku 5.5 | Cheapest that follows instructions well |
 
-Respect the config: models the user does not have, a plan that only allows Auto, or a budget cap all change the pick. GPT models in Cursor may leave on 2026-11-12 (OpenAI's proposed cutoff); never make a GPT model the only option for a slice.
+Respect the config: models the user does not have, a plan that only allows Auto, or a budget cap all change the pick.
 
 ## 7. Run the team
 

@@ -9,7 +9,7 @@ Which model in Cursor runs which slice. Prices are per million tokens, input / o
 ## Two billing buckets
 
 - **Cursor models** (Grok 4.7 / 4.6 / 4.5, Composer 2.5) come out of the plan's weekly included pool. Use them first when they can do the slice well.
-- **Third-party models** (Claude, Gemini, GPT, others) bill at the API list price from prepaid credit, on Premium plans and up. Many are **hidden by default**: turn them on in Cursor Settings > Models (setup does this with the user).
+- **Third-party models** (Claude, Gemini, others) bill at the API list price from prepaid credit, on Premium plans and up. Many are **hidden by default**: turn them on in Cursor Settings > Models (setup does this with the user).
 
 ## The picks
 
@@ -41,7 +41,6 @@ Cursor's subagent `model` field takes a model id, with optional settings in brac
 | Composer 2.5 | `composer-2.5` |
 | Gemini 4 Argon | `gemini-4-argon` |
 | Gemini 3.8 Flash | `gemini-3.8-flash` |
-| GPT-5.6 Sol | `gpt-5.6-sol` |
 
 ## Auto mode
 
@@ -55,5 +54,5 @@ On legacy request-based plans without Max Mode, subagents run on Composer whatev
 
 ## Watch list
 
-- **GPT in Cursor.** OpenAI proposed ending Cursor's access on 2026-11-12. Not confirmed on Cursor's page as of 2026-11-03. GPT-5.6 Sol, Terra and Luna stay as backups only.
+- **Not used here:** OpenAI GPT models. This skill never routes to them.
 - **Also in the picker, not in the main picks:** Grok 4.6 / 4.5, Claude Opus 5 / 4.8 / Sonnet 5, Gemini 3.x Flash family, DeepSeek V4.1 Flash, GLM 5.3, Kimi K3, Meta Muse Wonder / Spark. Use one only if the user asks or the picks are unavailable.

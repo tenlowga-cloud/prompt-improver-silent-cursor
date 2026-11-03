@@ -31,7 +31,7 @@ Sources: docs.x.ai (Grok model pages, Grok Bot docs, skills and routines page), 
 - Do give each Bot one named job. Don't run one catch-all Bot.
 - Do put standing rules in the Bot description. Don't rely on one chat message for a standing rule.
 - Do give Grok 4.7 file ownership and a test. Don't hand it a whole vague feature with no done-means.
-- Don't port OpenAI or Anthropic sampling settings onto a Grok reasoning model; they error.
+- Don't port other vendors' sampling settings onto a Grok reasoning model; they error.
 
 **6. Pitfalls**
 - Bot memory is not a source of truth per xAI's own docs.

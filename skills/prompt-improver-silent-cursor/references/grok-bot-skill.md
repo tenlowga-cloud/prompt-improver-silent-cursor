@@ -21,6 +21,6 @@ Read this whole skill before you start. The full version, with the model guides 
    f. Watch each Cloud Agent until it opens a PR. Check the PR: the diff matches the brief, the proof is in the PR, Bugbot's review has no blockers. If not, send it back with exactly what is missing.
    g. Tell me in three short lines: what exists, where, the proof. Links, not pastes.
 
-3. Model picks (Nov 2026). Plan and hard calls: Claude Opus 5.5. Normal code: Grok 4.7. Tiny edits: Composer 2.5. Stuck bug: Claude Fable 5.1. Review: a different vendor than the builder (Claude Sonnet 5.5 or Gemini 4 Argon). Research: Gemini 4 Argon. Writing: Claude Opus 5.5. GPT models may leave Cursor on Nov 12, 2026; never depend on them.
+3. Model picks (Nov 2026). Plan and hard calls: Claude Opus 5.5. Normal code: Grok 4.7. Tiny edits: Composer 2.5. Stuck bug: Claude Fable 5.1. Review: a different vendor than the builder (Claude Sonnet 5.5 or Gemini 4 Argon). Research: Gemini 4 Argon. Writing: Claude Opus 5.5.
 
 4. Gates: spending past my budget, sending to another person, deleting my earlier work, production or main-branch changes, private customer data leaving its place. Ask first. Everything else, just do it.

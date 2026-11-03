@@ -4,7 +4,7 @@ A Cursor plugin that runs on **every prompt**, with no slash command. You type s
 
 It works from **Grok Bot** too: the Bot hands code work to Cursor Cloud Agents, and those agents run the same gate from your repo.
 
-Models checked against Cursor's list on **2026-11-03**: Grok 4.7, Composer 2.5, Claude Opus 5.5, Sonnet 5.5, Haiku 5.5, Fable 5.1, Gemini 4 Argon, Gemini 3.8 Flash (GPT-5.6 as backup only).
+Models checked against Cursor's list on **2026-11-03**: Grok 4.7, Composer 2.5, Claude Opus 5.5, Sonnet 5.5, Haiku 5.5, Fable 5.1, Gemini 4 Argon, Gemini 3.8 Flash.
 
 ## What it uses in Cursor
 
