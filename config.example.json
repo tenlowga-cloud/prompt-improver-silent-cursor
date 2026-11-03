@@ -1,0 +1,13 @@
+{
+  "user": "Your name",
+  "home": "grok-bot | cursor | both",
+  "plan": "ultra | premium | pro | plus | teams | enterprise | legacy",
+  "models_enabled": ["grok-4.7", "composer-2.5", "claude-opus-5-5", "claude-sonnet-5-5", "claude-haiku-5-5", "claude-fable-5-1", "gemini-4-argon", "gemini-3.8-flash"],
+  "budget_per_job_usd": 5,
+  "repos": ["owner/repo"],
+  "grok_bot_linked": false,
+  "grok_bot_link_proof": "",
+  "bugbot_on": false,
+  "report_style": "3 lines and the link",
+  "setup_done": "YYYY-MM-DD"
+}

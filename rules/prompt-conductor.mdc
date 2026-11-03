@@ -1,0 +1,10 @@
+---
+description: Silent prompt gate. Runs on every prompt.
+alwaysApply: true
+---
+
+Before you act on any prompt that asks for work (anything beyond a pure chat reply like "thanks"), read the whole skill `prompt-improver-silent-cursor` (SKILL.md and the references it lists) and follow it. Do not wait for a slash command.
+
+In short: turn the prompt into the finished result the user meant, split it into sections, ask only what is truly unclear (one question at a time, your pick first), write `.cursor/conductor/PROJECT-MAP.md`, pick the best model per slice from the roster, run the subagent team, check the work, and report in a few short lines. Keep the rewrite and plan silent.
+
+If `~/.cursor/conductor/config.json` and `.cursor/conductor/config.json` are both missing, run the skill's first-run setup before the job.

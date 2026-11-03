@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "hooks": {
+    "sessionStart": [
+      { "command": "./scripts/session-start.sh", "timeout": 10 }
+    ],
+    "stop": [
+      { "command": "./scripts/stop.sh", "timeout": 10, "loop_limit": 5 }
+    ],
+    "subagentStop": [
+      { "command": "./scripts/subagent-stop.sh", "timeout": 10 }
+    ]
+  }
+}

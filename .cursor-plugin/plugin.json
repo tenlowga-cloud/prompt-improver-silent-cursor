@@ -1,0 +1,10 @@
+{
+  "name": "prompt-improver-silent-cursor",
+  "displayName": "Prompt Improver (silent) for Cursor",
+  "version": "2.0.0",
+  "description": "Runs on every prompt. Turns a short prompt into the finished result, asks only what is unclear, writes a project map, picks the best Cursor model per slice, and runs a subagent and Cloud Agent team. Works from Grok Bot too.",
+  "author": { "name": "tenlowga-cloud" },
+  "license": "MIT",
+  "keywords": ["cursor", "prompt", "subagents", "cloud-agents", "grok-bot", "orchestration", "rules", "skills", "hooks"],
+  "logo": "assets/logo.svg"
+}
